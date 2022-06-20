@@ -1,0 +1,9 @@
+{
+    // ts를 js로 변환(Compile)하는 과정(옵션)
+    // target : javascript 몇버전? (es3, es5 ,esnext(최신js))
+    "compilerOptions" : {
+        "target" : "es5",
+        "module" : "commonjs",
+    }
+    
+}
