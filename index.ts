@@ -28,9 +28,9 @@ type NameType = 'kim' | 'Park'
 // 안에러 : let 이름 :NameType = 'kim';
 
 
-// 함수에 타입 지정 
+// 함수1에 타입 지정 
 // 함수function은 파라미터로 number를 받고 number 타입만 리턴 가능하다.
-function 함수(x : number) : number {
+function 함수1(x : number) : number {
     return x * 2
 }
 
@@ -72,10 +72,16 @@ class User {
 */
 
 
+let 이름 :string = '조영식';
+let 나이 :number = 29;
+let 출생지역 :string = '평창';
+let 가수 :{'가수' : string, '노래' : string} = {'가수' : 'Maroon5' , '노래' : 'Maps'};
 
-
-
-
+let project : {member : string[], days : number, started : boolean} = {                     
+    member : ['kim', 'park'],
+    days : 30,
+    started : true
+}
 
 
 
